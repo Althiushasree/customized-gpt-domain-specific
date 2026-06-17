@@ -1,0 +1,59 @@
+Question: What is machine learning?
+Answer: Machine learning is a subset of artificial intelligence that enables systems to learn from data and improve their performance on tasks without being explicitly programmed. It uses statistical techniques to give computers the ability to identify patterns and make decisions.
+
+Question: What is deep learning?
+Answer: Deep learning is a branch of machine learning that uses artificial neural networks with many layers to model complex patterns in data. It excels at tasks like image recognition, natural language processing, and speech recognition by learning hierarchical feature representations.
+
+Question: What is a neural network?
+Answer: A neural network is a computational model inspired by the human brain, consisting of interconnected nodes called neurons organized in layers. It learns by adjusting the weights of connections between neurons based on training examples to minimize prediction errors.
+
+Question: What is natural language processing?
+Answer: Natural language processing (NLP) is a field of AI that focuses on enabling computers to understand, interpret, and generate human language. It powers applications like chatbots, translation systems, sentiment analysis, and text summarization.
+
+Question: What is a transformer model?
+Answer: A transformer is a deep learning architecture introduced in 2017 that uses self-attention mechanisms to process sequential data in parallel. It forms the basis of modern language models like GPT, BERT, and T5, and has revolutionized NLP tasks.
+
+Question: What is GPT?
+Answer: GPT (Generative Pre-trained Transformer) is a large language model developed by OpenAI. It is trained on vast amounts of text data and can generate coherent, contextually relevant text for tasks like question answering, summarization, translation, and code generation.
+
+Question: What is fine-tuning in machine learning?
+Answer: Fine-tuning is the process of taking a pre-trained model and further training it on a smaller, task-specific dataset. It adapts the general knowledge of the base model to a specific domain or task with significantly less data and compute than training from scratch.
+
+Question: What is transfer learning?
+Answer: Transfer learning is a technique where a model trained on one large dataset is reused or adapted for a related but different task. It reduces training time and data requirements, and is especially useful when domain-specific labeled data is scarce.
+
+Question: What is overfitting?
+Answer: Overfitting occurs when a model learns the training data too well, including its noise and random fluctuations, and performs poorly on new, unseen data. It is addressed through techniques like regularization, dropout, early stopping, and using more training data.
+
+Question: What is underfitting?
+Answer: Underfitting occurs when a model is too simple to capture the underlying structure of the training data, resulting in poor performance on both training and test sets. It is typically addressed by using a more complex model, training longer, or adding more features.
+
+Question: What is a dataset?
+Answer: A dataset is a structured collection of data used to train, validate, and test machine learning models. It typically contains input features and corresponding labels (for supervised learning). The quality and size of a dataset significantly impact model performance.
+
+Question: What is supervised learning?
+Answer: Supervised learning is a type of machine learning where the model is trained on labeled data, meaning each training example has an input and a known correct output. The model learns to map inputs to outputs by minimizing the error on the training set.
+
+Question: What is unsupervised learning?
+Answer: Unsupervised learning involves training models on unlabeled data without explicit output labels. The model discovers hidden patterns or structure in the data on its own. Common techniques include clustering, dimensionality reduction, and generative modeling.
+
+Question: What is reinforcement learning?
+Answer: Reinforcement learning is a type of machine learning where an agent learns to make decisions by interacting with an environment. The agent receives rewards or penalties based on its actions and learns to maximize cumulative reward over time through trial and error.
+
+Question: What is a loss function?
+Answer: A loss function measures how far a model's predictions are from the true labels during training. Common loss functions include mean squared error for regression and cross-entropy loss for classification. The training process minimizes the loss function using optimization algorithms.
+
+Question: What is gradient descent?
+Answer: Gradient descent is an optimization algorithm used to minimize the loss function by iteratively updating model parameters in the direction of the negative gradient. Variants include stochastic gradient descent (SGD), mini-batch gradient descent, Adam, and RMSprop.
+
+Question: What is an epoch in machine learning?
+Answer: An epoch is one complete pass through the entire training dataset during model training. Training for multiple epochs allows the model to learn from the data repeatedly and gradually improve. The number of epochs is a hyperparameter that affects model performance.
+
+Question: What is a hyperparameter?
+Answer: A hyperparameter is a configuration value set before training begins that controls the learning process, such as learning rate, batch size, number of layers, or number of epochs. Unlike model parameters, hyperparameters are not learned from the data and must be tuned manually or through search.
+
+Question: What is batch size in training?
+Answer: Batch size is the number of training examples processed together in a single forward and backward pass during training. Smaller batches provide noisier but faster updates, while larger batches are more stable but require more memory. Typical batch sizes range from 8 to 256.
+
+Question: What is the learning rate?
+Answer: The learning rate is a hyperparameter that controls the step size at which the model's parameters are updated during gradient descent. A high learning rate can cause the model to diverge, while a low rate leads to slow convergence. Adaptive methods like Adam automatically adjust the learning rate.
