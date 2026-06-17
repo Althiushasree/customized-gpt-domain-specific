@@ -1,0 +1,14 @@
+# Customized GPT — Domain-Specific Fine-Tuning
+# Install with: pip install -r requirements.txt
+
+# Core ML / fine-tuning
+transformers==4.46.3
+datasets==3.1.0
+torch>=2.1.0          # Install from https://pytorch.org for your CUDA version
+
+# Web app
+flask==3.1.0
+
+# Utilities
+accelerate==1.1.1
+numpy>=1.24.0
